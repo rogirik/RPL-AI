@@ -1,9 +1,9 @@
-        import streamlit as st
-        import google.generativeai as genai
-        import os
-        from dotenv import load_dotenv
-        from tae_data import TAE_UNITS_DATA # Import our TAE data
-        import json # Import the json module for json.dumps()
+import streamlit as st
+import google.generativeai as genai
+import os
+from dotenv import load_dotenv
+from tae_data import TAE_UNITS_DATA # Import our TAE data
+import json # Import the json module for json.dumps()
 
         # --- Configuration ---
         load_dotenv() 
